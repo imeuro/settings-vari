@@ -1,0 +1,23 @@
+############
+ SUBLIME 2
+
+{
+	"bold_folder_labels": false,
+	"color_scheme": "Packages/Theme - Flatland/Flatland Monokai.tmTheme",
+	"font_size": 12,
+	"ignored_packages":
+	[
+		"Vintage"
+	],
+	"indent_subsequent_lines": true,
+	"open_files_in_new_window": true,
+	"smart_indent": false,
+	"tab_size": 2,
+	"theme": "Spacegray Eighties.sublime-theme",
+	"word_wrap": true
+}
+
+
+
+############
+ SUBLIME 3
