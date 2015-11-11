@@ -4,19 +4,20 @@
 #
 #  ---------------------------------------------------------------------------
 
+
 #   Change Prompt
 #   ------------------------------------------------------------
     export PS1="\u@\h:># "
 
-#   Set Paths
+
+#   add Paths for IPKG binaries
 #   ------------------------------------------------------------
 
-    export PATH="/opt/bin/:local/bin:/usr/sbin:/usr/bin:/sbin:/bin"
+    export PATH=/opt/bin:/opt/sbin:$PATH
 
 
-#   -----------------------------
 #   MAKE BASIC COMMANDS BETTER
-#   -----------------------------
+#   ------------------------------------------------------------
 
     alias cp='cp -iv'                           # Preferred 'cp' implementation
     alias mv='mv -iv'                           # Preferred 'mv' implementation
