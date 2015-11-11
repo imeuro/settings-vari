@@ -7,7 +7,7 @@
 
 #   Change Prompt
 #   ------------------------------------------------------------
-    export PS1="\u@\h:># "
+#   export PS1="\u@\h:>\w# "
 
 
 #   add Paths for IPKG binaries
