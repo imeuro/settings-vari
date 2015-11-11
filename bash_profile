@@ -1,6 +1,6 @@
   ---------------------------------------------------------------------------
 #
-#  BASH configurations and aliases for my iOmega HMNHD
+#  BASH configurations and aliases for my iOmega HMNHD in /etc/profile
 #
 #  ---------------------------------------------------------------------------
 
@@ -15,10 +15,10 @@
 
 
 #   -----------------------------
-#   2.  MAKE TERMINAL BETTER
+#   MAKE BASIC COMMANDS BETTER
 #   -----------------------------
 
     alias cp='cp -iv'                           # Preferred 'cp' implementation
     alias mv='mv -iv'                           # Preferred 'mv' implementation
     alias mkdir='mkdir -pv'                     # Preferred 'mkdir' implementation
-    alias ll='ls -FGlAhp'
+    alias ll='ls -FGlAhp'                       # Preferred 'ls' implementation
