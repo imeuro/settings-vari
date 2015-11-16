@@ -9,9 +9,7 @@ then
   echo "$NOW : cerco sottotitoli per $TR_TORRENT_NAME ( $torrent_path )" >> /torrents/log.txt
   python3 /torrents/opensubtitles.py $TR_TORRENT_DIR/$TR_TORRENT_NAME;
 else
-  #python3 /torrents/opensubtitles.py /torrents/Downloads/The.Last.Man.On.Earth.S02E07.HDTV.x264-KILLERS\[rarbg\]/
-  #echo "$NOW : just testing with /torrents/Downloads/The.Last.Man.On.Earth.S02E07.HDTV.x264-KILLERS[rarbg]" >> /torrents/log.txt
-  echo "$NOW : $torrent_path vuoto!" >> /torrents/log.txt
+  echo "$NOW : torrent_path vuoto!" >> /torrents/log.txt
 fi
 
 # on torrent complete, take ownership of the folders
