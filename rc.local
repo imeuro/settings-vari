@@ -14,11 +14,19 @@
 sleep 3 &&
 echo 'starting no-ip daemon...' &&
 sleep 5 &&
-/opt/bin/noip2 &&
+/bin/su - io -c "/opt/bin/noip2" &&
 
 sleep 3 &&
 echo 'starting transmission daemon...' &&
 sleep 5 &&
-/opt/bin/transmission-daemon -w /mnt/pools/A/A0/Torrents/Downloads -g /mnt/pools/A/A0/Torrents/conf/&&
+/bin/su - io -c "/opt/bin/transmission-daemon -u <user> -v <password> -w /mnt/pools/A/A0/Torrents/Downloads -g /mnt/pools/A/A0/Torrents/conf/"
+
+sleep 3 &&
+echo 'creating symlink to useful folders...' &&
+sleep 1 &&
+ln -s /mnt/pools/A/A0/Torrents /torrents
+
+sleep 3 &&
+echo 'all done, enjoy!' &&
 
 exit 0
