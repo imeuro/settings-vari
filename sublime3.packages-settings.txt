@@ -1,3 +1,8 @@
+########################
+# 1. INSTALLED PACKAGES:
+on MacOs: ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
+on Ubuntu: ~/.config/sublime-text-3/Packages/User/Package\ Control.sublime-settings
+
 {
 	"bootstrapped": true,
 	"in_process_packages":
@@ -26,6 +31,12 @@
 		"Twig"
 	]
 }
+
+
+########################
+# 2. INSTALLED PACKAGES:
+on MacOs: [Cmd+,] ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/Default/Preferences.sublime-settings
+on Ubuntu: [Ctrl+,] ~/.config/sublime-text-3/Packages/Default/Preferences.sublime-settings
 
 
 {
