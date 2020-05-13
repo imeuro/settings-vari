@@ -1,3 +1,7 @@
+Open the command palette
+Win/Linux: ctrl+shift+p, Mac: cmd+shift+p
+Type Install Package Control, press enter
+
 ########################
 # 1. INSTALLED PACKAGES:
 on MacOs: ~/Library/Application\ Support/Sublime\ Text\ 3/Packages/User/Package\ Control.sublime-settings
