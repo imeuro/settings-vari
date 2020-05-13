@@ -1,0 +1,58 @@
+{
+	"bootstrapped": true,
+	"in_process_packages":
+	[
+	],
+	"installed_packages":
+	[
+		"A File Icon",
+		"AutoFileName",
+		"Autoprefixer",
+		"BracketHighlighter",
+		"Color Highlighter",
+		"Git",
+		"GitGutter",
+		"HTMLBeautify",
+		"JavaScript Completions",
+		"JSLint",
+		"Less2Css",
+		"Libsass Build",
+		"Materialize",
+		"Nostromo Color Scheme",
+		"Package Control",
+		"SideBarEnhancements",
+		"Smarty",
+		"Sublimerge 3",
+		"Twig"
+	]
+}
+
+
+{
+	"auto_complete_selector": "source, text",
+	"close_windows_when_empty": true,
+	"color_scheme": "Packages/Nostromo Color Scheme/Nostromo.tmTheme",
+	"draw_minimap_border": true,
+	"fade_fold_buttons": false,
+	"font_face": "Fira Code Medium",
+	"font_options":
+	[
+		"subpixel_antialias",
+		"gray_antialias"
+	],
+	"font_size": 16,
+	"ignored_packages":
+	[
+		"SCSS Compiler",
+		"Vintage"
+	],
+	"open_files_in_new_window": false,
+	"spacegray_fileicons": true,
+	"spacegray_sidebar_font_large": true,
+	"spacegray_sidebar_tree_xlarge": true,
+	"spacegray_tabs_font_large": true,
+	"spacegray_tabs_normal": true,
+	"tab_size": 2,
+	"theme": "Material Firewatch.sublime-theme",
+	"word_wrap": true
+}
